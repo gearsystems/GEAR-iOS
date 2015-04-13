@@ -1,0 +1,29 @@
+# Version: 8.6.1.26 (98ee412)
+# [first argument, ignore] # /Users/sudheeshsinganamalla/Projects/GEAR/GEAR/bin/iPhoneSimulator/Debug/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.1.26/bin/mtouch-64 \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/sudheeshsinganamalla/Projects/GEAR/GEAR/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--executable \
+	GEAR \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/sudheeshsinganamalla/Projects/GEAR/GEAR/bin/iPhoneSimulator/Debug/GEAR.app \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	8.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/sudheeshsinganamalla/Projects/GEAR/GEAR/bin/iPhoneSimulator/Debug/GEAR.exe \
